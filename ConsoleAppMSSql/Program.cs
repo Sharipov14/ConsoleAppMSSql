@@ -6,6 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleAppMSSql
+    /*CREATE TABLE Orders(
+    CustomerID INTEGER     NOT NULL,
+    OrderID INTEGER     PRIMARY KEY AUTOINCREMENT
+                           UNIQUE
+                           NOT NULL,
+    OrderDate DATETIME    NOT NULL,
+    FilledDate DATETIME,
+    Status VARCHAR (1) NOT NULL,
+Amount     INT NOT NULL
+)*/
 {
     class Program
     {
